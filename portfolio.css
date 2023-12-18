@@ -1,0 +1,63 @@
+.row1{
+    background:rgb(255, 229, 229);
+    height: 650px;
+}
+.pic1,.pic2{
+    /* height: 650px; */
+    /* border-right:15px double white; */
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.col1{
+    background-color: rgb(255, 229, 229);
+
+}
+
+.b1{
+    border-radius: 30px;
+}
+.b12{
+    background-color: red;
+}
+/* .con1{
+    border: double 15px black;
+} */
+.r1{
+    height: 300px;
+    
+    border: 2px solid white;
+}
+.c1{
+    height: 500px;
+    border: 2px solid white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.forum{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.heading{
+  color:  rgb(153, 77, 0)
+}
+.head1,.heading{
+    font-style: italic;
+}
+.nav1{
+    background-color: rgb(210, 121, 121);
+}
+
+
+@media(max-width:550px){
+    .pic1,.pic2,.col-lg-3{
+
+        width:100%
+    }
+    .heading{
+        font-size: 24px;
+        padding-left: 0px;
+    }
+    .para{
+        font-size: 13px;
+    }
+}
